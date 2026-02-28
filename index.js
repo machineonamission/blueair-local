@@ -6,7 +6,7 @@ const endpoints = require('./endpoints');
 const setupMqttSubscription = require('./mqtt_subscribe');
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 /* a function that returns a config object named 'appConfig' that reads in the env vars from the container and sets internal variables for use in other parts of the application.
   Env vars:
